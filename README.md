@@ -23,6 +23,18 @@ The primary objective is for the agent to learn a policy that maximizes the cumu
 
 ## 📚 Environments
 
+<p align="center">
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/d7cd08e0-7fb2-4329-8738-286438f1d198" alt="Lawn Mower" width="200"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/47d729b0-c885-4e94-8b73-4b6aef995a6e" alt="Squirrel Maze" width="200"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/d2bfc794-e84a-4c51-b75a-b9b44a2f4646" alt="Frozen Lake" width="200"/>
+</p>
+<p align="center">
+  <b>Lawn Mower</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Squirrel Maze</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Frozen Lake</b>
+</p>
+
+
+
+
 ### 1. Frozen Lake
 
 The Frozen Lake environment is a 4x4 grid where the agent (a skater) must navigate from the start to the goal while avoiding holes and collecting gems.
@@ -168,7 +180,7 @@ The Stock Trading environment simulates trading in a stock market, where the age
 
 3. Comparison
 
-    | Algorithm | Environment | Model Variation | Max Reward (Episode) | Episode 1000 Reward | Epsilon Decay Trend |
+| Algorithm | Environment | Model Variation | Max Reward (Episode) | Episode 1000 Reward | Epsilon Decay Trend |
 | --- | --- | --- | --- | --- | --- |
 | Q-learning | Deterministic | Base Model | 400+ | 390 | Slow Decline |
 | Q-learning | Deterministic | Hyperparameter Tuning (Max Timestamp, Decay Rate: 20, 0.75) | 800+ | 765 | Slow Decline |
@@ -227,3 +239,8 @@ The Stock Trading environment simulates trading in a stock market, where the age
 -   Gymnasium Library
 -   Matplotlib (for visualizations)
 -   Various RL Algorithms
+
+
+### 🚨Academic Integrity Disclaimer🚨
+
+This project in this repository is intended solely as an inspiration for your future projects and should be referenced accordingly. It is not meant for students to fulfill their academic project requirements. If a student uses this project for such purposes, the creators are not responsible. The student will be solely accountable for violating academic integrity. We explicitly state that this repository should not be used to meet academic requirements. Therefore, any academic integrity issues should be addressed with the student, not the creators.
