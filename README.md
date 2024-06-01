@@ -1,6 +1,6 @@
-# Defining-and-Solving-RL-Environments
+# Defining and Solving Reinforcement Learning Environments
 
-This project is focused on creation and analysis of various Reinforcement Learning environments, applying Q-learning and other tabular methods. Dive into the intricacies of deterministic, stochastic, and stock trading environments in Reinforcement Learning.
+This project is focused on creation and analysis of various Grid World environments, applying SARSA, Q-learning and Double Q Learning methods. Implemented and worked with deterministic, stochastic, and stock trading environments in Reinforcement Learning.
 
 ## 🌟 Features
 
