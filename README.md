@@ -23,6 +23,18 @@ The primary objective is for the agent to learn a policy that maximizes the cumu
 
 ## 📚 Environments
 
+<p align="center">
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/d7cd08e0-7fb2-4329-8738-286438f1d198" alt="Lawn Mower" width="200"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/47d729b0-c885-4e94-8b73-4b6aef995a6e" alt="Squirrel Maze" width="200"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/d2bfc794-e84a-4c51-b75a-b9b44a2f4646" alt="Frozen Lake" width="200"/>
+</p>
+<p align="center">
+  <b>Lawn Mower</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Squirrel Maze</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Frozen Lake</b>
+</p>
+
+
+
+
 ### 1. Frozen Lake
 
 The Frozen Lake environment is a 4x4 grid where the agent (a skater) must navigate from the start to the goal while avoiding holes and collecting gems.
@@ -97,19 +109,22 @@ The Stock Trading environment simulates trading in a stock market, where the age
 
 -   **Description**: This plot shows how the epsilon value decreases over episodes, indicating the agent's transition from exploration to exploitation.
 
-    ![Frozen Lake Epsilon Decay](path_to_frozen_lake_epsilon_decay_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/ef84589b-9b5d-47ab-8ac2-5c093ff96d9e)
+
 
 2. Total Rewards per Episode
 
 -   **Description**: This plot illustrates the cumulative rewards obtained by the agent in each episode, showing the learning progress over time.
 
-    ![Frozen Lake Total Rewards](path_to_frozen_lake_total_rewards_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/bdf10023-f9a4-4aee-8b39-6975288589bc)
+
 
 3. Q-Learning vs. Double Q-Learning Comparison
 
 -   **Description**: A comparison of the performance of Q-Learning and Double Q-Learning algorithms in the Frozen Lake environment.
 
-    ![Frozen Lake Q vs Double Q](path_to_frozen_lake_q_vs_double_q_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/9681d2f8-6546-4f62-9d7c-6528f865472a)
+
 
 ### Lawn Mower
 
@@ -119,15 +134,32 @@ The Stock Trading environment simulates trading in a stock market, where the age
 
 1. Epsilon Decay Plot
 
-    ![Lawn Mower Epsilon Decay](path_to_lawn_mower_epsilon_decay_plot.png)
+<p align="center">
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/7c856c99-c183-4200-afdc-043da83758d1" alt="SARSA Epsilon Decay" width="300"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/6c034df0-fc1a-45b9-a44d-c6bffe493308" alt="Q Learning Epsilon Decay" width="300"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/eaef9a85-7b21-40cd-b877-854b048ecd59" alt="Double Q Epsilon Decay" width="300"/>
+</p>
+<p align="center">
+  <b>SARSA Epsilon Decay</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Q Learning Epsilon Decay</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Double Q Epsilon Decay</b>
+</p>
 
-2. Total Rewards per Episode
 
-    ![Lawn Mower Total Rewards](path_to_lawn_mower_total_rewards_plot.png)
+3. Total Rewards per Episode
 
-3. SARSA vs. Double Q-Learning Comparison
+<p align="center">
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/66611548-edf9-427f-8ff5-71b8810f95bf" alt="SARSA Total Rewards" width="300"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/1eca5c95-087a-40c5-bb30-95c05249d548" alt="Q Learning Total Rewards" width="300"/>
+  <img src="https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/0d8f5d2a-d265-4fa2-ab2a-095689921ec7" alt="Double Q Total Rewards" width="300"/>
+</p>
+<p align="center">
+  <b>SARSA Total Rewards</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Q Learning Total Rewards</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>Double Q Total Rewards</b>
+</p>
 
-    ![Lawn Mower SARSA vs Double Q](path_to_lawn_mower_sarsa_vs_double_q_plot.png)
+
+5. SARSA vs. Double Q-Learning Comparison
+
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/bf78cf38-86a1-4fca-8f48-d35a65945fa9)
+
 
 ### Squirrel Maze
 
@@ -138,15 +170,25 @@ The Stock Trading environment simulates trading in a stock market, where the age
 
 1. Epsilon Decay Plot
 
-    ![Squirrel Maze Epsilon Decay](path_to_squirrel_maze_epsilon_decay_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/0063a9d5-4083-4337-ad09-9498abb604f5)
+
 
 2. Total Rewards per Episode
 
-    ![Squirrel Maze Total Rewards](path_to_squirrel_maze_total_rewards_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/e1361577-49c8-4ee6-94a1-0d2cba7b034c)
 
-3. Q-Learning vs. Double Q-Learning Comparison
 
-    ![Squirrel Maze Q vs Double Q](path_to_squirrel_maze_q_vs_double_q_plot.png)
+3. Comparison
+
+| Algorithm | Environment | Model Variation | Max Reward (Episode) | Episode 1000 Reward | Epsilon Decay Trend |
+| --- | --- | --- | --- | --- | --- |
+| Q-learning | Deterministic | Base Model | 400+ | 390 | Slow Decline |
+| Q-learning | Deterministic | Hyperparameter Tuning (Max Timestamp, Decay Rate: 20, 0.75) | 800+ | 765 | Slow Decline |
+| Q-learning | Deterministic | Hyperparameter Tuning (Max Timestamp, Decay Rate: 20, 0.995) | 800+ | 765 | Slow Decline |
+| Q-learning | Stochastic | Base Model | 400+ | 305 | Slow Decline |
+| Q-learning | Stochastic | Hyperparameter Tuning (Max Timestamp, Decay Rate: 20, 0.995) | 800+ | 660 | Slow Decline |
+| Double Q-learning | Deterministic | Base Model | 400 | - | - |
+| Double Q-learning | Stochastic | Base Model | 400+ | - | - |
 
 ### Stock Trading
 
@@ -154,17 +196,20 @@ The Stock Trading environment simulates trading in a stock market, where the age
 
 1. Epsilon Decay Plot
 
-    ![Stock Trading Epsilon Decay](path_to_stock_trading_epsilon_decay_plot.png)
+   ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/7bbacddf-d9f7-429c-b781-4f5a85648071)
+
 
 2. Total Rewards per Episode
 
-    ![Stock Trading Total Rewards](path_to_stock_trading_total_rewards_plot.png)
+    ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/a8e5efa8-559b-4457-b1e8-fac392a73b54)
+
 
 3. Account Value Over Time
 
 -   **Description**: This plot shows how the agent's account value changes over time, indicating the profitability of the trading strategy.
 
-    ![Stock Trading Account Value](path_to_stock_trading_account_value_plot.png)
+   ![image](https://github.com/REDDITARUN/Defining-and-Solving-Reinforcement-Learning-Environments/assets/53268025/70f9baa4-4fe1-43fa-95c3-522d9a436014)
+
 
 ### Summary of Results for Each Environment
 
@@ -194,3 +239,8 @@ The Stock Trading environment simulates trading in a stock market, where the age
 -   Gymnasium Library
 -   Matplotlib (for visualizations)
 -   Various RL Algorithms
+
+
+### 🚨Academic Integrity Disclaimer🚨
+
+This project in this repository is intended solely as an inspiration for your future projects and should be referenced accordingly. It is not meant for students to fulfill their academic project requirements. If a student uses this project for such purposes, the creators are not responsible. The student will be solely accountable for violating academic integrity. We explicitly state that this repository should not be used to meet academic requirements. Therefore, any academic integrity issues should be addressed with the student, not the creators.
